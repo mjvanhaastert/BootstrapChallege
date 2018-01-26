@@ -1,0 +1,81 @@
+/*!
+ * Start Bootstrap - Heroic Features (https://startbootstrap.com/template-overviews/heroic-features)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-heroic-features/blob/master/LICENSE)
+ */
+
+body {
+  padding-top: 54px;
+  font-family: Eczar;
+  font-weight: 400;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
+
+
+.jumbotron-billboard .img {
+  margin-bottom: 0px;
+  opacity: 0.9;
+  color: #fff;
+  background:url("../img/nl_head.jpg") top center no-repeat;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  overflow: hidden;
+  position:absolute;
+  top:0;
+  left:0;
+  z-index:1;
+}
+.jumbotron h2 {
+  margin-top:0;
+  font: bold;
+  color: white;
+  font-size: 3.5rem;
+}
+
+.jumbotron {
+  position:relative;
+  padding-top:50px;
+  padding-bottom:50px;
+}
+.jumbotron .container {
+  position:relative;
+  z-index:2;
+}
+
+.jumbotron p{
+  font-weight: 400;
+  color: white;
+
+}
+
+@media screen and (max-width: 768px) {
+  .jumbotron {
+    padding-top:20px;
+    padding-bottom:20px;
+  }
+}
+
+.card {
+  height: 100%;
+  text-align: left;
+}
+
+div a.btn{
+  background-color: lavender;
+  color: black;
+  text
+}
+
+.card img{
+  width: 100%;
+}
+.no-border{
+  border-style: none ;
+
+}
